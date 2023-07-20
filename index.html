@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="Generador">Generador de Contraseñas Seguras</h1>
+        <p>Genera una contraseña segura de 12 caracteres:</p>
+        <div class="password-container">
+            <input type="text" id="password" readonly>
+            <button onclick="generatePassword()">Generar Contraseña</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        // Llamamos a la función para generar una contraseña cuando se carga la página inicialmente.
+        generatePassword();
+    </script>
+</body>
+</html>
